@@ -21,7 +21,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: SebRut/{repository}
   github_api_key:
-    secure: 449928c6b9ee289d50e4b9058d1ba64f37b303ec #https://ci.appveyor.com/tools/encrypt
+    secure:Ya/EJweHJUkjGy0MYHAipT8Rzo+lzdxB8p8P3gcG8UvdA92MtSfQ54+xjcuhfnC6 #https://ci.appveyor.com/tools/encrypt
 
 
   # Mail credentials - for error notifications
