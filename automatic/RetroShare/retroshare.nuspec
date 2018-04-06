@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>RetroShare</id>
+    <title>RetroShare</title>
+    <version>0.6.4.20180406</version>
+	<authors>retroshare</authors>
+    <owners>SebRut</owners>
+    <summary>RetroShare is a Free and Open Source cross-platform, Friend-2-Friend and secure decentralised communication platform. </summary>
+    <description>
+Retroshare establish encrypted connections between you and your friends to create a network of computers, and provides various distributed services on top of it: forums, channels, chat, mail... Retroshare is fully decentralized, and designed to provide maximum security and anonymity to its users beyond direct friends. Retroshare is entirely free and open-source software. It is available on Android, Linux, MacOS and Windows. There are no hidden costs, no ads and no terms of service.
+    </description>
+    <projectUrl>http://retroshare.net/</projectUrl>
+    <tags>p2p filesharing decentralized chat</tags>
+    <licenseUrl>https://github.com/RetroShare/RetroShare/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+    <docsUrl>https://retroshare.readthedocs.io/</docsUrl>
+    <bugTrackerUrl>https://github.com/RetroShare/RetroShare/issues/</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/RetroShare/RetroShare</projectSourceUrl>
+    <packageSourceUrl>https://github.com/SebRut/chocolatey-packages/tree/master/automatic/retroshare</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
