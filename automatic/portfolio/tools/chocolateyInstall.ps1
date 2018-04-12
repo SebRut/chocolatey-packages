@@ -1,8 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop'
 
-$packageVersion = $Env:ChocolateyPackageVersion
-$packageParameters = Get-PackageParameters
-
 $installationPath = Split-Path -Parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
