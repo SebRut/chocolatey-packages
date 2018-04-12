@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>portfolio</id>
+    <title>Portfolio Performance</title>
+    <version></version>
+    <authors>Andreas Buchen</authors>
+    <owners>SebRut</owners>
+    <summary>Portfolio Performance ist ein Open Source Programm zur Berechnung der Performance eines Gesamtportfolios - über verschiedene Depots und Konten hinweg - anhand von True-Time Weighted Rate of Return und internem Zinsfuß.</summary>
+    <description>Die vollständige Historie aller Buchungen kann erfasst werden: Käufe, Verkäufe, Steuern, Gebühren, ...
+Performance-Kennzahlen wie der True-Time Weighted Rate of Return oder der interne Zinsfuß (Internal Rate of Return) werden errechnet.
+Historische Kurse werden auto­matisch von Yahoo Finance geladen oder können aus beliebigen HTML Seiten extrahiert werden.
+Durch das offenen Dateiformat stehen alle Daten als XML zur Verfügung oder können als CSV exportiert werden.
+Unterstützung für Rebalancing anhand von frei definierbaren Asset Allocations.
+Mit Hilfe der historischen Wechsel­kursen der Europä­ischen Zentral­bank (ECB) können Konten und Aktien in Fremd­währung geführt werden.</description>
+    <projectUrl>http://www.portfolio-performance.info/portfolio/</projectUrl>
+    <tags>finance stocks portfolio-performance</tags>
+    <licenseUrl>https://github.com/buchen/portfolio/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/SebRut/chocolatey-packages/38092b55/icons/retroshare.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+    <bugTrackerUrl>https://github.com/buchen/portfolio/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/buchen/portfolio</projectSourceUrl>
+    <packageSourceUrl>https://github.com/SebRut/chocolatey-packages/</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
