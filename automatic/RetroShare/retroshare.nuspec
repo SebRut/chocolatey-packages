@@ -24,7 +24,7 @@ Retroshare establish encrypted connections between you and your friends to creat
     <docsUrl>https://retroshare.readthedocs.io/</docsUrl>
     <bugTrackerUrl>https://github.com/RetroShare/RetroShare/issues/</bugTrackerUrl>
     <projectSourceUrl>https://github.com/RetroShare/RetroShare</projectSourceUrl>
-    <packageSourceUrl>https://github.com/SebRut/chocolatey-packages/tree/master/automatic/retroshare</packageSourceUrl>
+    <packageSourceUrl>https://github.com/SebRut/chocolatey-packages/tree/master/automatic/RetroShare</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
