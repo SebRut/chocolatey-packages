@@ -8,13 +8,7 @@
     <version></version>
     <authors>Andreas Buchen</authors>
     <owners>SebRut</owners>
-    <summary>Portfolio Performance ist ein Open Source Programm zur Berechnung der Performance eines Gesamtportfolios - über verschiedene Depots und Konten hinweg - anhand von True-Time Weighted Rate of Return und internem Zinsfuß.</summary>
-    <description>Die vollständige Historie aller Buchungen kann erfasst werden: Käufe, Verkäufe, Steuern, Gebühren, ...
-Performance-Kennzahlen wie der True-Time Weighted Rate of Return oder der interne Zinsfuß (Internal Rate of Return) werden errechnet.
-Historische Kurse werden auto­matisch von Yahoo Finance geladen oder können aus beliebigen HTML Seiten extrahiert werden.
-Durch das offenen Dateiformat stehen alle Daten als XML zur Verfügung oder können als CSV exportiert werden.
-Unterstützung für Rebalancing anhand von frei definierbaren Asset Allocations.
-Mit Hilfe der historischen Wechsel­kursen der Europä­ischen Zentral­bank (ECB) können Konten und Aktien in Fremd­währung geführt werden.</description>
+    <description>A simple tool to calculate the overall performance of an investment portfolio.</description>
     <projectUrl>http://www.portfolio-performance.info/portfolio/</projectUrl>
     <tags>finance stocks portfolio-performance</tags>
     <licenseUrl>https://github.com/buchen/portfolio/blob/master/LICENSE</licenseUrl>
