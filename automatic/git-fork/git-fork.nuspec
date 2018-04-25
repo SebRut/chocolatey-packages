@@ -13,9 +13,9 @@
     <tags>git merge git-fork</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/SebRut/chocolatey-packages/38092b55/icons/fork.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+    <dependencies>
+      <dependency id="dotnet4.6" />
+    </dependencies>
     <releaseNotes></releaseNotes>
     <packageSourceUrl>https://github.com/SebRut/chocolatey-packages/</packageSourceUrl>
   </metadata>
