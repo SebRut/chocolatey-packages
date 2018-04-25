@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>portfolio</id>
     <title>Portfolio Performance</title>
-    <version></version>
+    <version>0.29.0.20180420</version>
     <authors>Andreas Buchen</authors>
     <owners>SebRut</owners>
     <description>A simple tool to calculate the overall performance of an investment portfolio.</description>
@@ -13,10 +13,10 @@
     <tags>finance stocks portfolio-performance</tags>
     <licenseUrl>https://github.com/buchen/portfolio/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/SebRut/chocolatey-packages/38092b55/icons/portfolioperformance.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+    <iconUrl>https://cdn.rawgit.com/SebRut/chocolatey-packages/b477c50f/icons/portfolioperformance.png</iconUrl>
+    <dependencies>
+      <dependency id="jdk8"  />
+    </dependencies>
     <releaseNotes></releaseNotes>
     <bugTrackerUrl>https://github.com/buchen/portfolio/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/buchen/portfolio</projectSourceUrl>
