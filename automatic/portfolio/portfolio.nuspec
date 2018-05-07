@@ -15,7 +15,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/SebRut/chocolatey-packages/b477c50f/icons/portfolioperformance.png</iconUrl>
     <dependencies>
-      <dependency id="jdk8"  />
+      <dependency id="jdk8" />
     </dependencies>
     <releaseNotes></releaseNotes>
     <bugTrackerUrl>https://github.com/buchen/portfolio/issues</bugTrackerUrl>

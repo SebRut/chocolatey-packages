@@ -4,10 +4,10 @@ $installationPath = Split-Path -Parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
   packageName    = 'portfolio'
-  url         = 'https://s3.amazonaws.com/name.abuchen.portfolio/0.29.0/PortfolioPerformance-0.29.0-win32.win32.x86.zip'
-  url64bit          = 'https://s3.amazonaws.com/name.abuchen.portfolio/0.29.0/PortfolioPerformance-0.29.0-win32.win32.x86_64.zip'
-  checksum     = '8080764851571883e8eba7c149ce0b9238adefa9cf17a0bd4d9caaa1e9fbd121'
-  checksum64bit     = '4d5d2e13873638e5feb0d181ccdfaf63b7f3633f2a3bc6493e01b477993954a9'
+  url         = 'https://bintray.com/buchen/downloads/download_file?file_path=0.31.0%2FPortfolioPerformance-distro-0.31.0-win32.win32.x86_64.zip'
+  url64bit          = 'https://bintray.com/buchen/downloads/download_file?file_path=0.31.0%2FPortfolioPerformance-distro-0.31.0-win32.win32.x86_64.zip'
+  checksum     = 'cae61c27b9961aaedb7ebb5213809fce72cde9d86b10d7a2dc44b7d291d05381'
+  checksum64bit     = 'cae61c27b9961aaedb7ebb5213809fce72cde9d86b10d7a2dc44b7d291d05381'
   checksumType = 'sha256'
   checksumType64bit = 'sha256'
   unzipLocation  = $installationPath
