@@ -8,7 +8,7 @@ $packageArgs = @{
   checksum     = ''
   checksumType = 'sha256'
   installerType = 'exe'
-  silentArgs  = ''
+  silentArgs  = '--silent'
   validExitCodes = @(0)
 }
 
