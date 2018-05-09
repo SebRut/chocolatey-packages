@@ -10,7 +10,7 @@
     <owners>SebRut</owners>
     <description>The most feature-packed video player ever made.</description>
     <projectUrl>https://www.sodaplayer.com/</projectUrl>
-    <tags>sodaplayer, media player, video player</tags>
+    <tags>sodaplayer mediaplayer videoplayer</tags>
     <licenseUrl>https://www.sodaplayer.com/terms</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes></releaseNotes>
