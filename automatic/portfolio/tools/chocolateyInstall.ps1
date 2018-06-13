@@ -4,12 +4,12 @@ $installationPath = Split-Path -Parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
   packageName    = 'portfolio'
-  url         = 'https://bintray.com/buchen/downloads/download_file?file_path=0.31.0%2FPortfolioPerformance-distro-0.31.0-win32.win32.x86_64.zip'
-  url64bit          = 'https://bintray.com/buchen/downloads/download_file?file_path=0.31.0%2FPortfolioPerformance-distro-0.31.0-win32.win32.x86_64.zip'
-  checksum     = 'cae61c27b9961aaedb7ebb5213809fce72cde9d86b10d7a2dc44b7d291d05381'
-  checksum64bit     = 'cae61c27b9961aaedb7ebb5213809fce72cde9d86b10d7a2dc44b7d291d05381'
+  url         = 'https://bintray.com/buchen/downloads/download_file?file_path=0.31.2%2FPortfolioPerformance-distro-0.31.2-win32.win32.x86.zip'
+  url64bit          = 'https://bintray.com/buchen/downloads/download_file?file_path=0.31.2%2FPortfolioPerformance-distro-0.31.2-win32.win32.x86_64.zip'
+  checksum     = 'e6262c3b4f35e56eb6f89eba437e8a079dd426dae6cb59d93f2d8b3ddc0d38c6'
+  checksum64     = '37ca701f286394cfc474c369d2b5405ad36279456001a721c771c271658e285c'
   checksumType = 'sha256'
-  checksumType64bit = 'sha256'
+  checksumType64 = 'sha256'
   unzipLocation  = $installationPath
   validExitCodes = @(0)
 }
