@@ -9,10 +9,11 @@
     <authors>Fork</authors>
     <owners>SebRut</owners>
     <description>a fast and friendly git client for Mac and Windows</description>
+	  <summary>a fast and friendly git client for Mac and Windows</summary>
     <projectUrl>https://git-fork.com/</projectUrl>
     <tags>git merge git-fork</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/SebRut/chocolatey-packages/38092b55/icons/fork.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/SebRut/chocolatey-packages/f3319b78/icons/fork.png</iconUrl>
     <dependencies>
 		<dependency id="dotnet4.7.1" version="4.7.2558.0" />
     </dependencies>
