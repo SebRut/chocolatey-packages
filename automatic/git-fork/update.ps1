@@ -1,6 +1,7 @@
 import-module au
 
-$releases = 'https://git-fork.com/releasenoteswin'
+$releases = 'https://git-fork.com/update/win/RELEASES'
+$re  = "([A-Z,0-9]{0,128}) Fork-(\d\.\d{1,2}\.\d{1,2})(?:-full.nupkg \d.+)"
 
 function global:au_SearchReplace {
     @{
@@ -14,14 +15,14 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     [Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
     $download_page = Invoke-WebRequest -Uri $releases
+	$text = [System.Text.Encoding]::ASCII.GetString($download_page.Content)
 
-    $re  = "Fork \d\.\d+"
-    $download_page -match $re
+	$values = (($text | select-string -pattern $re -AllMatches).Matches | select -Last 1)
 
-    $version = $matches[0] -split ' ' | select -First 1 -Skip 1
+    $version = $values.Groups[2].Value
     $url_32 = "https://git-fork.com/update/win/ForkInstaller.exe"
 
-    $Latest = @{ URL32 = $url_32; Version = $version }
+    $Latest = @{ URL32 = $url_32; Version = $version}
     return $Latest
 }
 
