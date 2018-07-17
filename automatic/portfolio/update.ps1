@@ -26,8 +26,8 @@ function global:au_GetLatest {
     $url = $download_page.links | ? href -match $re | select -First 2 -expand href
 
     $version = $url[0] -split '-' | select -First 1 -Skip 2
-    $url_32 = $url[0]
-    $url_64 = $url[1]
+    $url_32 = $url[0] -replace '-distro', ''
+    $url_64 = $url[1] -replace '-distro', ''
 
     $Latest = @{ URL32 = $url_32; URL64 = $url_64; ChecksumType32 = 'sha256'; ChecksumType64 = 'sha256'; Version = $version }
     return $Latest
