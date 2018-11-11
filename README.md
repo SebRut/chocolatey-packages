@@ -1,14 +1,29 @@
 # chocolatey-packages
+[![AppVeyor](https://img.shields.io/appveyor/ci/SebRut/chocolatey-packages.svg?style=for-the-badge)](https://ci.appveyor.com/project/SebRut/chocolatey-packages)
+[![Liberapay receiving](https://img.shields.io/liberapay/receives/SebRut.svg?style=for-the-badge)](https://liberapay.com/SebRut)
+
 Chocolatey packages created by me!
 
 # Packages
 ## Automatic
-* RetroShare
-  * `cinst retroshare`
-* Fork
-  * `cinst git-fork
+### Fork 
+ [![Chocolatey](https://img.shields.io/chocolatey/dt/git-fork.svg?style=for-the-badge)](https://chocolatey.org/packages/git-fork/)
+ [![Chocolatey](https://img.shields.io/chocolatey/v/git-fork.svg?style=for-the-badge)](https://chocolatey.org/packages/git-fork/)
+  * `cinst git-fork`
   * **NOTE** As Fork has it's own internal updater, it is advised to pin the package after isntallation
-* Portfolio Performance
+### Portfolio Performance
+[![Chocolatey](https://img.shields.io/chocolatey/dt/portfolio.svg?style=for-the-badge)](https://chocolatey.org/packages/portfolio/)
+[![Chocolatey](https://img.shields.io/chocolatey/v/portfolio.svg?style=for-the-badge)](https://chocolatey.org/packages/portfolio/)
   * `cinst portfolio`
-* Soda Player
+### RetroShare
+[![Chocolatey](https://img.shields.io/chocolatey/dt/retroshare.svg?style=for-the-badge)](https://chocolatey.org/packages/retroshare/)
+[![Chocolatey](https://img.shields.io/chocolatey/v/retroshare.svg?style=for-the-badge)](https://chocolatey.org/packages/retroshare/)
+  * `cinst retroshare`
+### Soda Player 
+[![Chocolatey](https://img.shields.io/chocolatey/dt/sodaplayer.svg?style=for-the-badge)](https://chocolatey.org/packages/sodaplayer/)
+[![Chocolatey](https://img.shields.io/chocolatey/v/sodaplayer.svg?style=for-the-badge)](https://chocolatey.org/packages/sodaplayer/)
+
   * `cinst sodaplayer`
+
+# Support my work
+* Liberapay: [![Liberapay receiving](https://img.shields.io/liberapay/receives/SebRut.svg?style=for-the-badge)](https://liberapay.com/SebRut)
