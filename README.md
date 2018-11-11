@@ -27,3 +27,4 @@ Chocolatey packages created by me!
 
 # Support my work
 * Liberapay: [![Liberapay receiving](https://img.shields.io/liberapay/receives/SebRut.svg?style=for-the-badge)](https://liberapay.com/SebRut)
+* [![Paypal](https://img.shields.io/badge/PayPal-SebRut-green.svg?style=for-the-badge)](https://www.paypal.com/paypalme/my/profile)
