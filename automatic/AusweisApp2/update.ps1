@@ -25,7 +25,7 @@ function global:au_GetLatest {
 
     $checksum = [System.Text.Encoding]::ASCII.GetString((Invoke-WebRequest -Uri ($url + ".sha256")).Content) -split " " | Select-Object -First 1
 
-    $Latest = @{ URL32 = $url; Version = $version; Checksum32 = $checksum }
+    $Latest = @{ URL32 = $url; Version = $version; Checksum32 = $checksum; ChecksumType32 = 'sha256' }
     return $Latest
 }
 
