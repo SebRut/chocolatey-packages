@@ -6,11 +6,15 @@ Chocolatey packages created by me!
 
 # Packages
 ## Automatic
+### AusweisApp2
+[![Chocolatey](https://img.shields.io/chocolatey/dt/ausweisapp2.svg?style=for-the-badge)](https://chocolatey.org/packages/ausweisapp2/)
+[![Chocolatey](https://img.shields.io/chocolatey/v/ausweisapp2.svg?style=for-the-badge)](https://chocolatey.org/packages/ausweisapp2/)
+  * `cinst ausweisapp2`
 ### Fork 
  [![Chocolatey](https://img.shields.io/chocolatey/dt/git-fork.svg?style=for-the-badge)](https://chocolatey.org/packages/git-fork/)
  [![Chocolatey](https://img.shields.io/chocolatey/v/git-fork.svg?style=for-the-badge)](https://chocolatey.org/packages/git-fork/)
   * `cinst git-fork`
-  * **NOTE** As Fork has it's own internal updater, it is advised to pin the package after isntallation
+  * **NOTE** As Fork has it's own internal updater, it is advised to pin the package after installation
 ### Portfolio Performance
 [![Chocolatey](https://img.shields.io/chocolatey/dt/portfolio.svg?style=for-the-badge)](https://chocolatey.org/packages/portfolio/)
 [![Chocolatey](https://img.shields.io/chocolatey/v/portfolio.svg?style=for-the-badge)](https://chocolatey.org/packages/portfolio/)
