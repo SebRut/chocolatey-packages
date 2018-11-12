@@ -1,12 +1,11 @@
 ﻿$ErrorActionPreference = 'Stop'
 
-
 $packageArgs = @{
   packageName    = 'ausweisapp2'
   url            = ''
   checksum       = ''
   checksumType   = 'sha256'
-  installerType  = 'exe'
+  installerType  = 'msi'
   silentArgs    = '/S'
   validExitCodes = @(0)
 }

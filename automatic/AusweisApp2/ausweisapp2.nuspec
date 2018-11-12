@@ -4,7 +4,7 @@
     <id>ausweisapp2</id>
     <version>__REPLACE__</version>  
     <title>AusweisApp2 (Install)</title>
-    <authors>KontaktGovernikus GmbH & Co. KG</authors>
+    <authors>KontaktGovernikus GmbH &amp; Co. KG</authors>
     <projectUrl>https://www.ausweisapp.bund.de/ausweisapp2-home/</projectUrl>
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/ausweisapp2.png</iconUrl>-->
     <licenseUrl>https://cdn.jsdelivr.net/gh/Governikus/AusweisApp2/LICENSE.officially.txt</licenseUrl>

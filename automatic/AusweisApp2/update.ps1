@@ -13,14 +13,19 @@ function global:au_SearchReplace {
 
 function global:au_GetLatest {
     [Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
-    $download_page = Invoke-WebRequest -Uri $releases
+    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $re  = "AusweisApp2-\d+\.\d+\.\d+.msi"
-    $url = $download_page.links | ? href -match $re | select -First 1 -expand href
+    $url = $download_page.links | Where-Object href -match $re | Select-Object -First 1 -expand href
 
-    $version = $url[0] -split '-' | select -First 1 -Skip 1
+    $version = $url -split '-' | Select-Object -First 1 -Skip 1
+    $version = $version -replace ".{4}$"
 
-    $Latest = @{ URL32 = $url; Version = $version }
+    $url = 'https://github.com' + $url
+
+    $checksum = [System.Text.Encoding]::ASCII.GetString((Invoke-WebRequest -Uri ($url + ".sha256")).Content) -split " " | Select-Object -First 1
+
+    $Latest = @{ URL32 = $url; Version = $version; Checksum32 = $checksum }
     return $Latest
 }
 
