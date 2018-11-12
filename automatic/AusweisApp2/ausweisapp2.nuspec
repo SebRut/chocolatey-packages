@@ -11,8 +11,7 @@
     <!--requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <projectSourceUrl>https://github.com/Governikus/AusweisApp2</projectSourceUrl>
     <tags>ausweisapp2</tags>
-    <summary>__REPLACE__</summary>
-    <description>__REPLACE__MarkDown_Okay</description>
+    <description>AusweisApp2 enables german citizens to authenticate themselves using their passport.</description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
