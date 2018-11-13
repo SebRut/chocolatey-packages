@@ -6,7 +6,7 @@ $packageArgs = @{
   checksum       = ''
   checksumType   = 'sha256'
   installerType  = 'msi'
-  silentArgs    = '/S'
+  silentArgs    = '/quiet'
   validExitCodes = @(0)
 }
 Install-ChocolateyPackage @packageArgs
