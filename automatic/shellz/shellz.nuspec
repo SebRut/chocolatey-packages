@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>shellz</id>
+    <title>shellz</title>
+    <version></version>
+	<authors>evilsocket</authors>
+    <owners>SebRut</owners>
+    <summary>shellz is a small utility to track and control your ssh, telnet, web and custom shells and tunnels.</summary>
+    <description>shellz is a small utility to track and control your ssh, telnet, web and custom shells and tunnels.</description>
+    <projectUrl>https://github.com/evilsocket/shellz</projectUrl>
+    <tags>terminal shell</tags>
+    <licenseUrl>https://github.com/evilsocket/shellz/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+	  <!--iconUrl></iconUrl-->
+    <bugTrackerUrl>https://github.com/evilsocket/shellz/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/evilsocket/shellz</projectSourceUrl>
+    <packageSourceUrl>https://github.com/SebRut/chocolatey-packages/tree/master/automatic/shellz</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
