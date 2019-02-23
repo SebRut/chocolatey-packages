@@ -17,7 +17,7 @@
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <releaseNotes>https://github.com/evilsocket/shellz/releases</releaseNotes>
 	  <!--iconUrl></iconUrl-->
     <bugTrackerUrl>https://github.com/evilsocket/shellz/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/evilsocket/shellz</projectSourceUrl>

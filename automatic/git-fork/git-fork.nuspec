@@ -13,7 +13,7 @@
     <projectUrl>https://git-fork.com/</projectUrl>
     <tags>git merge git-fork</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/SebRut/chocolatey-packages/f3319b78/icons/fork.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/SebRut/chocolatey-packages@f3319b78a91b46a0dc280a6a0145fa6a17691e09/icons/fork.png</iconUrl>
     <dependencies>
 		<dependency id="dotnet4.7.1" version="4.7.2558.0" />
     </dependencies>

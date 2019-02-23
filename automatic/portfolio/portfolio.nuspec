@@ -13,7 +13,7 @@
     <tags>finance stocks portfolio-performance</tags>
     <licenseUrl>https://github.com/buchen/portfolio/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/SebRut/chocolatey-packages/b477c50f/icons/portfolioperformance.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/SebRut/chocolatey-packages@b477c50f212b47851eb7a07e8508ac35eb422db6/icons/portfolioperformance.png</iconUrl>
     <dependencies>
       <dependency id="jdk8" />
     </dependencies>

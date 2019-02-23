@@ -19,8 +19,8 @@ Retroshare establish encrypted connections between you and your friends to creat
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
-    <releaseNotes></releaseNotes>
-	  <iconUrl>https://cdn.rawgit.com/SebRut/chocolatey-packages/38092b55/icons/retroshare.png</iconUrl>
+    <releaseNotes>https://github.com/RetroShare/RetroShare/releases</releaseNotes>
+	  <iconUrl>https://cdn.jsdelivr.net/gh/SebRut/chocolatey-packages@38092b55a8e351afef63a206363c7b4b16ad769c/icons/retroshare.png</iconUrl>
     <docsUrl>https://retroshare.readthedocs.io/</docsUrl>
     <bugTrackerUrl>https://github.com/RetroShare/RetroShare/issues/</bugTrackerUrl>
     <projectSourceUrl>https://github.com/RetroShare/RetroShare</projectSourceUrl>

@@ -8,7 +8,7 @@
     <version></version>
     <authors>Freedom Island Privacy Inc</authors>
     <owners>SebRut</owners>
-	<iconUrl>https://cdn.rawgit.com/SebRut/chocolatey-packages/71947507/icons/sodaplayer.png</iconUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/SebRut/chocolatey-packages@71947507e94e93de0a4d9a214fea2cee3725ef27/icons/sodaplayer.png</iconUrl>
     <description>The most feature-packed video player ever made.</description>
     <projectUrl>https://www.sodaplayer.com/</projectUrl>
     <tags>sodaplayer mediaplayer videoplayer</tags>

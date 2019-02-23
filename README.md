@@ -6,10 +6,6 @@ Chocolatey packages created by me!
 
 # Packages
 ## Automatic
-### AusweisApp2
-[![Chocolatey](https://img.shields.io/chocolatey/dt/ausweisapp2.svg?style=for-the-badge)](https://chocolatey.org/packages/ausweisapp2/)
-[![Chocolatey](https://img.shields.io/chocolatey/v/ausweisapp2.svg?style=for-the-badge)](https://chocolatey.org/packages/ausweisapp2/)
-  * `cinst ausweisapp2`
 ### Fork 
  [![Chocolatey](https://img.shields.io/chocolatey/dt/git-fork.svg?style=for-the-badge)](https://chocolatey.org/packages/git-fork/)
  [![Chocolatey](https://img.shields.io/chocolatey/v/git-fork.svg?style=for-the-badge)](https://chocolatey.org/packages/git-fork/)
@@ -23,10 +19,13 @@ Chocolatey packages created by me!
 [![Chocolatey](https://img.shields.io/chocolatey/dt/retroshare.svg?style=for-the-badge)](https://chocolatey.org/packages/retroshare/)
 [![Chocolatey](https://img.shields.io/chocolatey/v/retroshare.svg?style=for-the-badge)](https://chocolatey.org/packages/retroshare/)
   * `cinst retroshare`
+### shellz
+[![Chocolatey](https://img.shields.io/chocolatey/dt/shellz.svg?style=for-the-badge)](https://chocolatey.org/packages/shellz/)
+[![Chocolatey](https://img.shields.io/chocolatey/v/shellz.svg?style=for-the-badge)](https://chocolatey.org/packages/shellz/)
+  * `cinst shellz`
 ### Soda Player 
 [![Chocolatey](https://img.shields.io/chocolatey/dt/sodaplayer.svg?style=for-the-badge)](https://chocolatey.org/packages/sodaplayer/)
 [![Chocolatey](https://img.shields.io/chocolatey/v/sodaplayer.svg?style=for-the-badge)](https://chocolatey.org/packages/sodaplayer/)
-
   * `cinst sodaplayer`
 
 # Support my work
