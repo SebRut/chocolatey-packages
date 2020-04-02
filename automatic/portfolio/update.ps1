@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'http://www.portfolio-performance.info/portfolio/'
+$releases = 'http://www.portfolio-performance.info/'
 
 function global:au_SearchReplace {
     @{
