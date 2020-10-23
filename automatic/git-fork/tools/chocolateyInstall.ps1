@@ -4,7 +4,7 @@
 $packageArgs = @{
   packageName    = 'git-fork'
   url            = 'https://git-fork.com/update/win/ForkInstaller.exe'
-  checksum       = '1287b648a5797fc15eebd25b67007c86368751f9821458f676409511d5a34167'
+  checksum       = '144AF9662DA9F1A02A62582CCBCE6EE0755DFF88ACFD64A655DFC78A12BD116E'
   checksumType   = 'sha256'
   installerType  = 'exe'
   silentArgs    = '/s'
