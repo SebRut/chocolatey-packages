@@ -14,7 +14,7 @@ Retroshare establish encrypted connections between you and your friends to creat
     </description>
     <projectUrl>http://retroshare.cc/</projectUrl>
     <tags>p2p filesharing decentralized chat</tags>
-    <licenseUrl>https://github.com/RetroShare/RetroShare/blob/master/LICENSE.txt</licenseUrl>
+    <licenseUrl>https://github.com/RetroShare/RetroShare/blob/master/.reuse/dep5</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<dependencies>
       <dependency id="" version="" />
