@@ -20,7 +20,7 @@ function global:au_GetLatest {
 	$values = (($text | select-string -pattern $re -AllMatches).Matches | select -Last 1)
 
     $version = $values.Groups[2].Value
-    $url_32 = "https://git-fork.com/update/win/ForkInstaller.exe"
+    $url_32 = "https://cdn.fork.dev/win/Fork-" + $version + ".exe"
 
     $Latest = @{ URL32 = $url_32; Version = $version}
     return $Latest
