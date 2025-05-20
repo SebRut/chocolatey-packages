@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'http://www.portfolio-performance.info/'
+$releases = 'https://www.portfolio-performance.info/download.html'
 
 function global:au_SearchReplace {
     @{
@@ -22,7 +22,7 @@ function global:au_GetLatest {
     $re = "PortfolioPerformance-distro-\d+\.\d+\.\d+-win32\.win32\.x86(_64)?\.zip"
     $url = $download_page.links | ? href -match $re | select -First 1 -expand href
 
-    $version = $url -split '-' | select -First 1 -Skip 2
+    $version = $url -split '-' | select -First 1 -Skip 3
 
     $Latest = @{ URL64 = $url; ChecksumType64 = 'sha256'; Version = $version }
     return $Latest
